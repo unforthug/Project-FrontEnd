@@ -1,0 +1,11 @@
+.pst {
+    background-color:#C0EEF2;
+    height: 100px;
+    width: 740px;
+    margin: 10px;
+    border: 2px solid #537FE7;
+    border-radius: 15px;
+}
+.pstContainer{
+    background-color: #C0EEF2;
+}

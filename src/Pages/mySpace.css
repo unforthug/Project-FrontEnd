@@ -1,0 +1,54 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+.profile-container{
+    background-color: #181823;
+    width: 90rem;
+    height: auto;
+    margin:0% 10%;
+    display: inline-grid;
+    grid-template-rows: auto auto ;
+}
+.profile {
+    background-color: #E9F8F9;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2% 10%;
+    height: 20rem;
+}
+.Prof-post{
+    background-color: #E9F8F9;
+    margin: 2% 10%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.prof-sec{
+    /* display: inline-grid;
+    grid-template-columns: auto auto ; */
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1%;
+    height: 80%;
+
+}
+.prof-img{
+    grid-column: 1/2 ;
+    border: 2px solid black;
+    width: 20%;
+    height: 15rem;
+    margin-top: 0;
+    border-radius: 50%;
+    
+}
+.prof-infos{
+/* border: 3px solid ; */
+    margin-left: 10px;
+    width: 77%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    justify-content: space-around;
+}

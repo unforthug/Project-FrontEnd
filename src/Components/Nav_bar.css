@@ -1,0 +1,19 @@
+.link_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px 50px;
+    width: 600px;
+}
+
+.btn {
+    margin: 0px 3px ;
+}
+.link {
+    text-decoration: none;
+    color: #537FE7;
+
+}
+.link:hover {
+    color: gray;
+}

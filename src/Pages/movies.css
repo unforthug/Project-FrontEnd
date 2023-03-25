@@ -1,0 +1,23 @@
+
+.mov-container {
+    width: 1200px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 60px;
+    background-color: #181823;
+}
+
+.container {
+    width : auto;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-left: 0px;
+    padding-left: 0;
+    justify-content:center;
+    background-color: #181823;
+
+}
+
