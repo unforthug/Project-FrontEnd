@@ -5,7 +5,7 @@ export const register = createAsyncThunk("user/register", async({formValue ,toas
      try {
         const {newUser} = await axios.post('https://yourdaily.onrender.com/user/signup',formValue) 
         toast.success("Registred Successfully")
-        navigate('/')
+        navigate('https://yourdailyfrontend.onrender.com/')
         return newUser ; 
      } catch (error) {
         return rejectWithValue(error?.response?.data)
